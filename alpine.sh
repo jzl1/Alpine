@@ -97,8 +97,8 @@ rm -rf /lovekk
 
 # os update
 cat > /etc/apk/repositories << EOF
-https://mirrors.ustc.edu.cn/alpine/latest-stable/main
-https://mirrors.ustc.edu.cn/alpine/latest-stable/community
+https://alpine.global.ssl.fastly.net/alpine/latest-stable/main
+https://alpine.global.ssl.fastly.net/alpine/latest-stable/community
 EOF
 apk update
 
